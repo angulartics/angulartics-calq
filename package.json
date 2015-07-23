@@ -1,0 +1,36 @@
+{
+  "name": "angulartics-calq",
+  "version": "0.1.0",
+  "description": "Calq plugin for Angulartics",
+  "keywords": [
+    "calq",
+    "analytics",
+    "plugin",
+    "angular",
+    "angulartics"
+  ],
+  "author": "Luis Farzati <lfarzati@gmail.com> (https://github.com/luisfarzati)",
+  "contributors": [
+    "Sebastien Rothlisberger <sebastien.rothlisberger@gmail.com> (https://github.com/rothlis)"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "mkdir -p dist && uglifyjs lib/angulartics-calq.js --compress --source-map dist/angulartics-calq.min.js.map --source-map-root .. --source-map-url ../dist/angulartics-calq.min.js.map -o dist/angulartics-calq.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rothlis/angulartics-calq"
+  },
+  "bugs": {
+    "url": "https://github.com/rothlis/angulartics-calq/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "angulartics": "~0.18.0"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.4.23"
+  }
+}
