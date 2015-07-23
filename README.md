@@ -2,10 +2,10 @@
 
 [![NPM version][npm-image]][npm-url] [![NPM downloads][npm-downloads-image]][npm-downloads-url] [![Bower version][bower-image]][bower-url] [![Dependencies status][dep-status-image]][dep-status-url] [![MIT license][license-image]][license-url] [![Join the Slack chat][slack-image]][slack-url]
 
-Kissmetrics plugin for [Angulartics](http://github.com/luisfarzati/angulartics).
+Calq plugin for [Angulartics](http://github.com/luisfarzati/angulartics).
 
 ## Important Note
-This plugin has no maintainers at the moment. If you use Kissmetrics and want to contribute with code/documentation/examples and become an active maintainer of this project, please [let us know](https://github.com/angulartics/angulartics-calq/issues/new?title=I+want+to+join+as+maintainer).
+This plugin has no maintainers at the moment. If you use Calq and want to contribute with code/documentation/examples and become an active maintainer of this project, please [let us know](https://github.com/angulartics/angulartics-calq/issues/new?title=I+want+to+join+as+maintainer).
 
 ## Install
 
