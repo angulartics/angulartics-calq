@@ -1,6 +1,6 @@
 {
-  "name": "angulartics-kissmetrics",
-  "main": "./dist/angulartics-kissmetrics.min.js",
+  "name": "angulartics-calq",
+  "main": "./dist/angulartics-calq.min.js",
   "dependencies": {
     "angulartics": "~0.20"
   },
