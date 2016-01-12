@@ -24,8 +24,8 @@
     "url": "https://github.com/rothlis/angulartics-calq/issues"
   },
   "license": "MIT",
-  "dependencies": {
-    "angulartics": "~0.20"
+  "peerDependencies": {
+    "angulartics": "^1.0.0"
   },
   "devDependencies": {
     "uglify-js": "^2.4.23"
